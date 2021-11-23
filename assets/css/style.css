@@ -6,17 +6,34 @@
 }
 
 .ui-menu-color-home {
-    background-color: #e67e22;
+    background-color: #b71c1c;
 }
 .ui-menu-color-resume {
-    background-color: #9b59b6;
+    background-color: #8e24aa;
 }
 .ui-menu-color-contact {
-    background-color: #3498db;
+    background-color: #e67e22;
 }
 .ui-menu-color-download {
-    background-color: #525252;
+    background-color: #006064;
 }
+
+/*----------------------------------------------------------Special paddings/margins/text */
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
 
 /*----------------------------------------------------------Heading */
 
@@ -109,4 +126,13 @@ header {
 .hvr-sweep-to-bottom:before {
     background: rgba(0,0,0,0.2);
     height: 120px;
+}
+
+/*----------------------------------------------------------Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
