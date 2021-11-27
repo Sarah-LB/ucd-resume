@@ -1,185 +1,162 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    <title>Sarah</title>
+</head>
+<body>
+    <header>
+        <div class="row no-gutters">
+            <a href="index.html" class="col-md-4 logo"></a>
+            <div class="col-md-8">
+                <div class="row no-gutters bg-color-name-title">
+                    <div class="col heading">
+                        <h1 class="name">Sarah Banda</h1>
+                        <h2 class="title">Full Stack Developer</h2>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col">
+                        <ul id="nav" class="list-inline menucontainer">
+                            <li class="col-6 ui-menu-color-home col-sm-3 list-inline-item menuitem">
+                                <a href="#" class="hvr-sweep-to-bottom"><i class="fas fa-home" aria-hidden="true"></i><span>Home</span></a>
+                            </li>
+                            <li class="col-6 ui-menu-color-resume col-sm-3 list-inline-item menuitem">
+                                <a href="#" class="hvr-sweep-to-bottom"><i class="fas fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+                            </li>
+                            <li class="col-6 ui-menu-color-contact col-sm-3 list-inline-item menuitem">
+                                <a href="#" class="hvr-sweep-to-bottom"><i class="far fa-comment" aria-hidden="true"></i><span>Contact</span></a>
+                            </li>
+                            <li class="col-6 ui-menu-color-download col-sm-3 list-inline-item menuitem">
+                                <a href="#" class="hvr-sweep-to-bottom"><i class="fas fa-download" aria-hidden="true"></i><span>Download</span></a>
+                            </li>
+                        </ul>
 
-/*----------------------------------------------------------Colours */
-.bg-color-name-title {
-    background-color: #676767;
-}
+                    </div>
 
-.ui-menu-color-home {
-    background-color: #b71c1c;
-}
-.ui-menu-color-resume {
-    background-color: #8e24aa;
-}
-.ui-menu-color-contact {
-    background-color: #e67e22;
-}
-.ui-menu-color-download {
-    background-color: #006064;
-}
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 bg-color-personal-info section-column">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="section-heading uppercase">
+                            Work History
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 bg-color-three-reasons section-column">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="section-heading uppercase">My Skills</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fas fa-tv" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">Front End</h4>
+                                <p>Paragraph about front end skills.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fas fa-cogs" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">Back End</h4>
+                                <p>Paragraph about back end skills.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+                            <span class="sr-only">90% complete</span></div>
+                            <span class="progress-type">HTML / HTML5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-/*----------------------------------------------------------Special paddings/margins/text */
+    </section>
+    <footer class="container-fluid">
+        <div id="footer-details" class="row">
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">About</h5>
+                <p class="inline-block">Full Stack Web Development Student, Engineer, Maths and Physics Tutor.</p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Download</h5>
+                <p class="inline-block">
+                    Need a printable version of my CV? Download it here.
+                    <a href="#" target="_blank" class="cv-pdf">
+                        <i class="fas fa-download" aria-hidden="true"></i>
+                        <span class="sr-only">Download link.</span>
+                    </a>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Social</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span> 
+                        </a>
+                    </li>       
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
-h1, h2, h3, h4 {
-    margin: 0;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.general-sub {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-}
-
-.inline-block {
-    display: inline-block;
-}
-
-/*----------------------------------------------------------Heading */
-
-header {
-    margin: 0;
-}
-
-.heading {
-    margin-left: 50px;
-}
-
-.logo {
-    background: url("../images/tinylady.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
-.name {
-    font-family: "Exo", sans-serif;
-    font-weight: 100;
-    font-size: 46px;
-    margin-top: 50px;
-    color: #fff;
-}
-
-.title {
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
-    font-size: 28px;
-    margin-top: 20px;
-    margin-bottom: 90px;
-    color: #fff;
-}
-
-.list-inline-item:not(:last-child) {
-    margin-right: 0;
-}
-
-.menucontainer {
-    font-size: 0;
-}
-
-#nav {
-    margin: 0;
-}
-
-#nav li {
-    font-size: 14px;
-    padding: 0;
-}
-
-.menuitem {
-    height: 120px;
-    text-align: center;
-    padding: 0;
-}
-
-.menuitem a {
-    width: 100%;
-    text-decoration: none;
-    color: #fff;
-    height: 120px;
-}
-
-.menuitem a i {
-    padding-top: 22px;
-    display: block;
-    color: #fafafa;
-    font-size: 26px;
-}
-
-.menuitem span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
-
-/*----------------------------------------------------------Hover.css */
-
-.hvr-sweep-to-bottom:before {
-    background: rgba(0,0,0,0.2);
-    height: 120px;
-}
-
-/*----------------------------------------------------------Footer */
-
-footer {
-    background-color: #525252;
-    color: #fafafa;
-    min-height: 120px;
-    margin: 0;
-}
-
-.cv-pdf i {
-    font-size: 18px;
-    color: #fafafa;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.cv-pdf i:hover {
-    color: #b71c1c;
-}
-
-.social-links {
-    padding-bottom: 15px;
-}
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-
-}
-
-.social-links li a i:hover {
-    background: #b71c1c;
-}
-
-#footer-details {
-    padding: 20px;
-}
+    </footer>
+</body>
+</html>
